@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 70px auto;
+    text-align: center;
+}
+
+.headerItem {
+    border: 2px solid grey;
+    font-size: 1em;
+    padding: 3px;
+    width: 135px;
+}
+
+.headerItem span {
+    font-size: 20px;
+    background: red;
+    margin: 0 2px;
+}
+
+.search {
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    width: 100%;
+    background: white;
+    color: black;
+    margin: 0 auto;
+    top: calc(100% - 60px);
+    height: 60px;
+}
+
+.search label {
+    font-size: 1.5em;
+    align-self: center;
+    margin: 0 auto;
+
+}
